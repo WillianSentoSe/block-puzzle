@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a05f7d86d633924d800246f49721c1d, type: 3}
+  m_Name: Game Config
+  m_EditorClassIdentifier: 
+  initialFallSpeed: 2
+  acceleration: 0.02
+  fallingSpeed: 2
+  pieces:
+  - {fileID: 6094033159473230236, guid: e3ac422585a8f7344b861fa47df73614, type: 3}
+  - {fileID: 1422039306310637086, guid: 6d962318e00218449931a6dea86fe2af, type: 3}
+  - {fileID: 4825305812567458510, guid: 3e3e4dc2bcd4b7348a25a3634d44bb53, type: 3}
+  - {fileID: -8710683501890771253, guid: 0f9a1d2aa42f7a540829c2bf5f831116, type: 3}
+  - {fileID: 8651058902891780524, guid: 4d35479682da5ca489a40eb8fc337d18, type: 3}
+  - {fileID: 8586316861776574352, guid: d23ad0c2c9e195d4daa9aea569cd6bcb, type: 3}
+  - {fileID: 8586316861776574352, guid: d23ad0c2c9e195d4daa9aea569cd6bcb, type: 3}
+  colors:
+  - {r: 0.9150943, g: 0.10989463, b: 0.02158241, a: 1}
+  - {r: 0.5471449, g: 0.2415895, b: 0.8396226, a: 1}
+  - {r: 1, g: 0.76640606, b: 0, a: 1}
+  - {r: 0.33398375, g: 0.6981132, b: 0.062566735, a: 1}
+  - {r: 0, g: 0.5181215, b: 0.8773585, a: 1}
+  - {r: 1, g: 0.28773582, b: 0.4968159, a: 1}
+  spawnDelay: 0.5
